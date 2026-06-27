@@ -1,6 +1,8 @@
 
 
 
+
+
 #### OLLAMA Introduction
 * Ollama is an Open-source platform to download, install, manage, run, and deploy large language models[LLMs]. 
 * All this can be done locally with Ollama
