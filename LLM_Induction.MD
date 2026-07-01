@@ -52,20 +52,22 @@
   - So before an LLM can process your prompt:
   - Create an Azure Resource Group
   - it first converts the text into tokens and then into numbers.
-    
-    Your Prompt
-      │
-      ▼
-    Break into Tokens
-      │
-      ▼
-    Convert Tokens into Numbers
-      │
-      ▼
-    LLM Processes the Numbers
-      │
-      ▼
-    Generate Response
+  
+  |                                  |         |
+  |----------------------------------|---------| 
+  |  Your Prompt                     |         |
+  |    │                             |         |
+  |    ▼                             |         |
+  |  Break into Tokens               |         |
+  |    │                             |         |
+  |    ▼                             |         |
+  |  Convert Tokens into Numbers     |         |
+  |    │                             |         |
+  |    ▼                             |         |
+  |  LLM Processes the Numbers       |         |
+  |    │                             |         |
+  |    ▼                             |         |
+  |  Generate Response               |         |
 
 
 * **ASCII** : is a numbering system
