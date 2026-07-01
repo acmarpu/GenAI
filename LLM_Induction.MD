@@ -32,7 +32,7 @@
   - **Cross-Platform**: Available for macOS, Linux, and Windows
   - **Modelfile**: Packages everything you need to run an LLM into a single Modelfile, making it easy to manage and run models 
 
-  
+  |       |                       |         |
   |-------|-----------------------|---------|
   |       |                       | llama   |
   |       |                       | Gemma   |
