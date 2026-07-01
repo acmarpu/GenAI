@@ -2,13 +2,13 @@
 
 
 
-|  Level        |      Concept    | What the AI does |  What YOU do |  Example     |
-|---------------|-----------------|------------------|--------------|--------------|
-|   1           | Generative AI   | Writes when prompted |  Everything else --- find, read, paste, review, decide            |   ChatGPT basic chat   |
-|   2           | + Tool Use       | Searches, reads URLs, Access files | Still Orchestrate the steps  | ChatGPT browsing |
-|   3           | AI Agent         | Plans + executes the full workflow autonomouly | Give one instruction review the output  | A single agent script with think-act-observe loop|
-|   4           |   Multi Agent    | Specialist agents, critic loops, revision pipelines | Give input, receive polished output | The resure tailor system (6 agents) |
-|   5           | Full Autonomy   | Finds jobs, tailors, applies, preps - end to end | wake up with intervies | the version
+|  Level        |      Concept      | What the AI does |  What YOU do |  Example     |
+|---------------|-------------------|------------------|--------------|--------------|
+|   1           | Generative AI     | Writes when prompted |  Everything else --- find, read, paste, review, decide            |   ChatGPT basic chat   |
+|   2           | + Tool Use        | Searches, reads URLs, Access files | Still Orchestrate the steps  | ChatGPT browsing |
+|   3           | AI Agent           | Plans + executes the full workflow autonomouly | Give one instruction review the output  | A single agent script with think-act-observe loop|
+|   4           |   Multi Agent     | Specialist agents, critic loops, revision pipelines | Give input, receive polished output | The resure tailor system (6 agents) |
+|   5           | Full Autonomy     | Finds jobs, tailors, applies, preps - end to end | wake up with intervies | the version
      
 
 
