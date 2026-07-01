@@ -39,7 +39,7 @@
   | System|     Ollama Locally    | Mistral |
   |       |                       |  Phi    |
   |       |                       | Qwen    |
-  |       |                       |         |
+  
 
 
 #### Tokens 
