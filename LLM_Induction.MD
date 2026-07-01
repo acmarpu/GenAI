@@ -32,12 +32,14 @@
   - **Cross-Platform**: Available for macOS, Linux, and Windows
   - **Modelfile**: Packages everything you need to run an LLM into a single Modelfile, making it easy to manage and run models 
 
-
-                                    llama
-                                    Gemma
-    Syatem      Ollama Locally      Mistral
-                                    Phi
-                                    Qwen
+  |       |                       |         |
+  |-------|-----------------------|---------|
+  |       |                       | llama   |
+  |       |                       | Gemma   |
+  | System|     Ollama Locally    | Mistral |
+  |       |                       |  Phi    |
+  |       |                       | Qwen    |
+  |       |                       |         |
 
 
 #### Tokens 
@@ -73,7 +75,7 @@
     - ASCII simply assigns a number to each individual character.
     - It doesn't understand words or their meanings.
 
-    |  h  | e   |  l  | l   | l   |
+    |  h  | e   |  l  | l   |  o  |
     |-----|-----|-----|-----|-----|
     | 104 | 101 | 108 | 108 | 111 |
 
