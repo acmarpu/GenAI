@@ -1,3 +1,7 @@
+
+
+
+
 |  Level      |      Concept    | What the AI does |  What YOU do |  Example     |
 |-------------|-----------------|------------------|--------------|--------------|
 |   1         | Generative AI   | Writes when prompted |  Everything else --- find, read, paste, review, decide            |   ChatGPT basic chat   |
