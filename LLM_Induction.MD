@@ -17,24 +17,30 @@
 |   5           | Full Autonomy     | Finds jobs, tailors, applies, preps - end to end | wake up with intervies | the version
      
 
+
+<span style="color:red">Red Text</span>
+
+
+
 <div align="center">
 
 ## LLM
 
 </div>
 
-* self -Attention
+* Self-Attention
 
 * Next token prediction: LLM does every work by predicting the next token
   - GPT, Claude, LLAMA, Qwen - works in the way
 
-* How LLM works?
+* **How LLM works?**
 <div align="center">
 TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT ---------> OUTPUT  
 </div>
 
-
+----------------------------------------------------------------------------------------------
 #### Tokens: "Chunks of data"
+----------------------------------------------------------------------------------------------
 * A token is a small piece of text the model reads before it runs that piece into a number.
 * The model doesn't read whole sentences or words directly. Instead, it first breaks the text into smaller pieces called tokens and then converts each token into a number (called a token ID) that the model can understand.
 
