@@ -1,5 +1,8 @@
+<div align="center">
 
-####                            AI Pyramid
+## AI Pyramid
+
+</div>
 
 
 ![alt text](https://github.com/acmarpu/images/blob/main/GenAI/02-image.png)
