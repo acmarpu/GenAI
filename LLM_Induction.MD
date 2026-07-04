@@ -1,5 +1,5 @@
 
-#### AI Pyramid
+####                            AI Pyramid
 
 
 ![alt text](https://github.com/acmarpu/GenAI/blob/main/images/02-image.png)
