@@ -6,7 +6,7 @@
 
 
 ![alt text](https://github.com/acmarpu/images/blob/main/GenAI/02-image.png)
-
+<br><br><br>
 
 |  Level        |      Concept      | What the AI does |  What YOU do |  Example     |
 |---------------|-------------------|------------------|--------------|--------------|
@@ -17,9 +17,7 @@
 |   5           | Full Autonomy     | Finds jobs, tailors, applies, preps - end to end | wake up with intervies | the version
      
 
-
-
-
+<br><br><br>
 
 <div align="center">
 
@@ -59,6 +57,7 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
 |  Data goes to servers| Fine tuned the models on your data |
 |  cannot change the behavior of model|                     |
 
+<br><br><br>
 
 ----------------------------------------------------------------------------------------------
 #### Tokens: "Chunks of data"
