@@ -17,40 +17,27 @@
 |   5           | Full Autonomy     | Finds jobs, tailors, applies, preps - end to end | wake up with intervies | the version
      
 
+<div align="center">
+
+## LLM
+
+</div>
+
+* self -Attention
+
+* Next token prediction: LLM does every work by predicting the next token
+  - GPT, Claude, LLAMA, Qwen - works in the way
+
+* How LLM works?
+
+<div align="center">
+
+TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT ---------> OUTPUT  
+
+</div>
 
 
-
-
-#### OLLAMA Introduction
-* Ollama is an Open-source platform to download, install, manage, run, and deploy large language models[LLMs]. 
-* All this can be done locally with Ollama
-
-* LLM stands for **Large language Model.** These Models are designed to understand, generate and interpret human language at a high level.
-
-* Here are some key points about LLMs.
-
-  - Typically contains billions of parameters, allowing them to grasp complex language patterns and generate cherent text.
-  - Trained on vast datasets that include books, articles, websites, and other text sources.
-  - Can perform tasks like text generation, summarization, translation, and answering questions.
-
-* The following are some features of Ollama
-  - **Model Library**: Offers a varity of pre-built models like Llama , Mistra, etc.
-  - **Customization**: Allows you to customize and create your own models.
-  - **Easy**: Provides a simple API for creating, running, and managing models
-  - **Cross-Platform**: Available for macOS, Linux, and Windows
-  - **Modelfile**: Packages everything you need to run an LLM into a single Modelfile, making it easy to manage and run models 
-
-  |       |                       |         |
-  |-------|-----------------------|---------|
-  |       |                       | llama   |
-  |       |                       | Gemma   |
-  | System|     Ollama Locally    | Mistral |
-  |       |                       |  Phi    |
-  |       |                       | Qwen    |
-  
-
-
-#### Tokens 
+#### Tokens: "Chunks of data"
 * A token is a small piece of text the model reads before it runs that piece into a number.
 * The model doesn't read whole sentences or words directly. Instead, it first breaks the text into smaller pieces called tokens and then converts each token into a number (called a token ID) that the model can understand.
 
@@ -90,7 +77,7 @@
     | 104 | 101 | 108 | 108 | 111 |
 
 
-* **Tokenization:**
+#### **Tokenization:**
 * Tokenization is the process of breaking text into smaller pieces called tokens.which helps machines process and analyze language effectively.
 
   - Tokens can be words, characters, or sub-words
@@ -122,6 +109,38 @@
   - The Context Window is the maximum amount of text (measured in tokens) that an LLM can consider at one time.
 
   - You can think of it as the model's working memory during a conversation.
+
+
+
+
+
+
+  #### OLLAMA Introduction
+* Ollama is an Open-source platform to download, install, manage, run, and deploy large language models[LLMs]. 
+* All this can be done locally with Ollama
+
+* LLM stands for **Large language Model.** These Models are designed to understand, generate and interpret human language at a high level.
+
+* Here are some key points about LLMs.
+
+  - Typically contains billions of parameters, allowing them to grasp complex language patterns and generate cherent text.
+  - Trained on vast datasets that include books, articles, websites, and other text sources.
+  - Can perform tasks like text generation, summarization, translation, and answering questions.
+
+* The following are some features of Ollama
+  - **Model Library**: Offers a varity of pre-built models like Llama , Mistra, etc.
+  - **Customization**: Allows you to customize and create your own models.
+  - **Easy**: Provides a simple API for creating, running, and managing models
+  - **Cross-Platform**: Available for macOS, Linux, and Windows
+  - **Modelfile**: Packages everything you need to run an LLM into a single Modelfile, making it easy to manage and run models 
+
+  |       |                       |         |
+  |-------|-----------------------|---------|
+  |       |                       | llama   |
+  |       |                       | Gemma   |
+  | System|     Ollama Locally    | Mistral |
+  |       |                       |  Phi    |
+  |       |                       | Qwen    |
 
 
 
