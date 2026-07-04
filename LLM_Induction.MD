@@ -2,7 +2,7 @@
 ####                            AI Pyramid
 
 
-![alt text](https://github.com/acmarpu/GenAI/blob/main/images/02-image.png)
+![alt text](https://github.com/acmarpu/images/blob/main/GenAI/02-image.png)
 
 
 |  Level        |      Concept      | What the AI does |  What YOU do |  Example     |
