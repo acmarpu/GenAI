@@ -29,11 +29,8 @@
   - GPT, Claude, LLAMA, Qwen - works in the way
 
 * How LLM works?
-
 <div align="center">
-
 TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT ---------> OUTPUT  
-
 </div>
 
 
