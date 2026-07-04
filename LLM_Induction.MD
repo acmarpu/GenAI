@@ -12,7 +12,7 @@
      
 
 
-![alt text](https://github.com/acmarpu/images/blob/main/Azure/image1.png)
+![alt text](https://github.com/acmarpu/GenAI/blob/main/images/02-image.png)
 
 
 #### OLLAMA Introduction
