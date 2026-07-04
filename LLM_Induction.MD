@@ -12,6 +12,8 @@
      
 
 
+![alt text](https://github.com/acmarpu/images/blob/main/Azure/image1.png)
+
 
 #### OLLAMA Introduction
 * Ollama is an Open-source platform to download, install, manage, run, and deploy large language models[LLMs]. 
