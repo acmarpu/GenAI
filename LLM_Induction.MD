@@ -1,5 +1,8 @@
 
+#### AI Pyramid
 
+
+![alt text](https://github.com/acmarpu/GenAI/blob/main/images/02-image.png)
 
 
 |  Level        |      Concept      | What the AI does |  What YOU do |  Example     |
@@ -12,7 +15,7 @@
      
 
 
-![alt text](https://github.com/acmarpu/GenAI/blob/main/images/02-image.png)
+
 
 
 #### OLLAMA Introduction
