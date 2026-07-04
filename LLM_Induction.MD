@@ -38,8 +38,7 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
 </div>
 
 <br><br><br>
-<br><br><br>
-<br><br><br>
+
    
 
 |  Frontier Models    | Open -Source LLMs    |
