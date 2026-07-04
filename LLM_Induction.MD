@@ -18,14 +18,13 @@
      
 
 
-<span style="color:red"> rrrrrr </span>
 
 
 
 <div align="center">
-
+----------------------------------------------------------------------------------------------
 ## LLM
-
+----------------------------------------------------------------------------------------------
 </div>
 
 * Self-Attention
@@ -37,6 +36,27 @@
 <div align="center">
 TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT ---------> OUTPUT  
 </div>
+
+   
+
+|  Frontier Models    | Open -Source LLMs    |
+|---------------------|----------------------| 
+|  ChatGpt            |  Llama               |
+|  claude             |  Qwen                |
+|  Gemini             |  Gemma               |
+|                     |  Phi                 |
+|                     |  Deepseek            |
+|                     |                      |
+|  Input Cost         |  No Cost             |
+|  Output Cost        |  Data is ours [local]|
+|  Token Cost         |                      |
+|  Owned by others (companies) |             |
+|  Pay per use         |                     |
+|  Data goes to servers|                     |
+|                      |                     |
+|  Data goes to servers| Fine tuned the models on your data |
+|  cannot change the behavior of model|                     |
+
 
 ----------------------------------------------------------------------------------------------
 #### Tokens: "Chunks of data"
