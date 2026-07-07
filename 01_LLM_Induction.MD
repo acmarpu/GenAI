@@ -8,6 +8,15 @@
 ![alt text](https://github.com/acmarpu/images/blob/main/GenAI/02-image.png)
 <br><br><br>
 
+| Layer  | What it Means  | Examples|
+|--------|----------------|---------|
+| AI     | Any system that mimics human intelligence| spam filters thermostas, calculators |
+| ML     | AI that learns patterns from data instead of hand-written rules | Netflix recommendations, fraud detection|
+| DL     | ML using neural networks with many layers of pattern recognition  | Face unlock, voice assistants, image recognition |
+| LLM    | Deep learning on text at massive scale (billions of parameters) | ChatGPT, Claude, Llama, Qwen  |
+
+<br><br><br>
+
 |  Level        |      Concept      | What the AI does |  What YOU do |  Example     |
 |---------------|-------------------|------------------|--------------|--------------|
 |   1           | Generative AI     | Writes when prompted |  Everything else --- find, read, paste, review, decide            |   ChatGPT basic chat   |
@@ -15,7 +24,6 @@
 |   3           | AI Agent           | Plans + executes the full workflow autonomouly | Give one instruction review the output  | A single agent script with think-act-observe loop|
 |   4           |   Multi Agent     | Specialist agents, critic loops, revision pipelines | Give input, receive polished output | The resure tailor system (6 agents) |
 |   5           | Full Autonomy     | Finds jobs, tailors, applies, preps - end to end | wake up with intervies | the version
-     
 
 <br><br><br>
 
@@ -36,7 +44,6 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
 </div>
 
 <br><br><br>
-
    
 
 |  Frontier Models    | Open -Source LLMs    |
@@ -62,6 +69,13 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
 ----------------------------------------------------------------------------------------------
 #### Tokens: "Chunks of data"
 ----------------------------------------------------------------------------------------------
+
+|   Token  |  Tokenizer  |   Tokenization |
+|----------|-------------|----------------|
+| the small piece of a word | this is the one which does the process | is a process of bulding the tokens |
+
+<br><br><br>
+
 * A token is a small piece of text the model reads before it runs that piece into a number.
 * The model doesn't read whole sentences or words directly. Instead, it first breaks the text into smaller pieces called tokens and then converts each token into a number (called a token ID) that the model can understand.
 
@@ -100,6 +114,7 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
     |-----|-----|-----|-----|-----|
     | 104 | 101 | 108 | 108 | 111 |
 
+<br><br><br>
 
 #### **Tokenization:**
 * Tokenization is the process of breaking text into smaller pieces called tokens.which helps machines process and analyze language effectively.
@@ -135,11 +150,9 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
   - You can think of it as the model's working memory during a conversation.
 
 
+<br><br><br>
 
-
-
-
-  #### OLLAMA Introduction
+#### OLLAMA Introduction
 * Ollama is an Open-source platform to download, install, manage, run, and deploy large language models[LLMs]. 
 * All this can be done locally with Ollama
 
