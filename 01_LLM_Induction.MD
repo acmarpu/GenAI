@@ -4,8 +4,8 @@
 
 </div>
 
-
 ![alt text](https://github.com/acmarpu/images/blob/main/GenAI/02-image.png)
+
 <br><br><br>
 
 | Layer  | What it Means  | Examples|
@@ -116,7 +116,9 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
 
 <br><br><br>
 
-#### **Tokenization:**
+----------------------------------------------------------------------------------------------
+#### Tokenization:
+----------------------------------------------------------------------------------------------
 * Tokenization is the process of breaking text into smaller pieces called tokens.which helps machines process and analyze language effectively.
 
   - Tokens can be words, characters, or sub-words
