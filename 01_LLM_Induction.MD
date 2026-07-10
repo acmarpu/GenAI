@@ -44,7 +44,8 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
 </div>
 
 <br><br><br>
-   
+
+  
 
 |  Frontier Models    | Open -Source LLMs    |
 |---------------------|----------------------| 
@@ -103,8 +104,8 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
   |  Generate Response               |         |
 
 
-* **ASCII** : is a numbering system
-  - ASCII (American Standard Code for Information Interchange) is a standard numbering system that assigns a unique number to each character.
+
+
 
   - Why Isn't ASCII Enough for LLMs?
     - ASCII simply assigns a number to each individual character.
@@ -119,21 +120,43 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
 ----------------------------------------------------------------------------------------------
 #### Tokenization:
 ----------------------------------------------------------------------------------------------
-* Tokenization is the process of breaking text into smaller pieces called tokens.which helps machines process and analyze language effectively.
+
+* **Step 1:** Understand the Input (**Tokenization**)
+* Text broken into smaller units called tokens, each mapped to a numeric ID.
+* "Artificial intelligence is transforming" becomes [2987,9231,318...].
+* The model never sees your words, only token IDs, This is why token count drives both your cost and your context limit. Every character you type is converted to currency before the mocel even starts working.
 
   - Tokens can be words, characters, or sub-words
   - Makes text easier for models to understand and process
   - Helps convert unstructured text into a structured format
   - Used in most NLP tasks like classification, translation and search
 
+* **ASCII** : is a numbering system
+  - ASCII (American Standard Code for Information Interchange) is a standard numbering system that assigns a unique number to each character.
 
-* **Embeddings:** it is a way to convert your token into a vector or numerical representation
+* **Step 2:** Convert Tokens into Context(**Embeddings:**)
+*  it is a way to convert your each token into a vector or numerical representation an embedding layer.
   - Once the text is tokenized, each token is converted into a vector (a list of numbers) This process is called embedding.
   - An embedding captures the meaning of a token, not just its identity.
   - Embedding is a vector of numbers that represents the token's meaning and its relationship to other tokens, enabling the model to perform mathematical operations on language.
+  
+* **Step 3:** Find What's Important (Attention)
+* Queries ask questions. Keys store information. Values hold the details.
+* The breakthrough that made modern LLMs possible. Every word weighed against every other word simultaneously. "It" knows what it refers to because attention connects them directly no matter how far apart they are.
 
+
+* **Step 4:** Process and Refine (**Transformer Blocks**)
+* Multi-head attention plus feed-forward networks, wrapped in Add and Norm with skip connections.
+* This block repeats across L layers: 12, 24, 48, and beyond.
+* Depth is where capability comes from. Early layers catch syntax. Middle layers capture meaning. Deep layers handle reasoning. Stacking layers is largely why a bigger model "understands" more than a small one.
 * **Transformers:** 
   - The Transformer is the neural network architecture that processes embeddings and determines how the tokens relate to each other.
+
+
+* **Step 5:** Predict the Next Word (**Generation**)
+The model outputs probabilities for the next token: data 0.31, people 0.21, better 0.15...
+It picks one, appends it, and repeats, one token at a time until it hits an end token.
+An LLM isn't "thinking out" a full answer. It's predicting the next token, over and over, fast enough to look like thought. That single fact explains hallucinations (confident but wrong predictions), streaming (tokens arriving one by one), and why output tokens cost more (each one requires a full forward pass).
 
 
 - Token ID = Identity
@@ -150,7 +173,6 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
   - The Context Window is the maximum amount of text (measured in tokens) that an LLM can consider at one time.
 
   - You can think of it as the model's working memory during a conversation.
-
 
 <br><br><br>
 
