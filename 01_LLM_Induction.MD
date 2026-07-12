@@ -29,8 +29,10 @@
 
 <div align="center">
 
+----------------------------------------------------------------------------------------------
 ## LLM
 ----------------------------------------------------------------------------------------------
+
 </div>
 
 * Self-Attention
@@ -103,13 +105,7 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
   |    ▼                             |         |
   |  Generate Response               |         |
 
-
-
-
-
-  - Why Isn't ASCII Enough for LLMs?
-    - ASCII simply assigns a number to each individual character.
-    - It doesn't understand words or their meanings.
+<br><br><br>
 
     |  h  | e   |  l  | l   |  o  |
     |-----|-----|-----|-----|-----|
@@ -133,6 +129,9 @@ TEXT  ---------> TOKENS  ---------> ATTENTION ---------> PREDICT NEXT --------->
 
 * **ASCII** : is a numbering system
   - ASCII (American Standard Code for Information Interchange) is a standard numbering system that assigns a unique number to each character.
+  - Why Isn't ASCII Enough for LLMs?
+  - ASCII simply assigns a number to each individual character.
+  - It doesn't understand words or their meanings.
 
 * **Step 2:** Convert Tokens into Context(**Embeddings:**)
 *  it is a way to convert your each token into a vector or numerical representation an embedding layer.
