@@ -173,21 +173,22 @@ An LLM isn't "thinking out" a full answer. It's predicting the next token, over 
 
   - You can think of it as the model's working memory during a conversation.
 
+  |  Without Memory           |  With Memory                  |
+  |---------------------------|-------------------------------|
+  | Each cell is a fresh start| Each cell is not a fresh start |
+  | we dont send any history  | We will send entire AI Conversation history every AI chat (every time). |
+  | the model does not have anything to read | the model reads all of it and responds in its context |
+
+* Refer 02_LLM_Induction_practic.ipynb for memory and without memory code
+
 <br><br><br>
 
 #### OLLAMA Introduction
 * Ollama is an Open-source platform to download, install, manage, run, and deploy large language models[LLMs]. 
 * All this can be done locally with Ollama
 
-* LLM stands for **Large language Model.** These Models are designed to understand, generate and interpret human language at a high level.
-
-* Here are some key points about LLMs.
-
-  - Typically contains billions of parameters, allowing them to grasp complex language patterns and generate cherent text.
-  - Trained on vast datasets that include books, articles, websites, and other text sources.
-  - Can perform tasks like text generation, summarization, translation, and answering questions.
-
 * The following are some features of Ollama
+
   - **Model Library**: Offers a varity of pre-built models like Llama , Mistra, etc.
   - **Customization**: Allows you to customize and create your own models.
   - **Easy**: Provides a simple API for creating, running, and managing models
